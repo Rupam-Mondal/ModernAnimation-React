@@ -2,20 +2,22 @@ import React from 'react'
 
 function Landing() {
   return (
-    <div className='w-full h-screen bg-zinc-900 pt-1'>
+    <div className='w-full h-screen  pt-1'>
         <div className='text mt-40 px-20'>
             <div className='masker'>
-                <h1 className='text-8xl leading-[6.5vw] tracking-tighter font-semibold'>WE CREATE</h1>
+                <h1 className='text-8xl leading-[7vw] tracking-tighter font-semibold'>WE CREATE</h1>
             </div>
 
 
             <div className='masker flex items-center'>
-            <div className='w-[9vw] h-[5vw] bg-red-500'></div>
-              <h1 className='text-8xl leading-[6.5vw] tracking-tighter font-semibold'>EYE OPENING</h1>
+                <div className='flex items-center'>
+                      <div className='w-[9vw] h-[6.5vw] bg-red-500'></div>
+                      <h1 className='text-8xl leading-[7vw] tracking-tighter font-semibold'>EYE OPENING</h1>
+                </div>
             </div>
 
             <div className='masker'>
-                <h1 className='text-8xl leading-[6.5vw] tracking-tighter font-semibold'>PRESENTATION</h1>
+                <h1 className='text-8xl leading-[7vw] tracking-tighter font-semibold'>PRESENTATION</h1>
             </div>
         </div>
 
