@@ -15,7 +15,7 @@ function Navbar() {
 
           <div className='links flex gap-10'>
             {["Services" , "Our Work" , "About Us" , "Insights" , "Contact"].map((v , i) => (
-                <a className='text-md font-semibold' key={i}>{v}</a>
+                <a className={`text-md font-semibold cursor-pointer ${i == 4 ? 'ml-20': ''}`} key={i}>{v}</a>
             ))}
           </div>
     </div>
