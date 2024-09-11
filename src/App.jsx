@@ -6,6 +6,7 @@ import Marqee from './Components/Marqee/Marqee'
 import About from './Components/About/About'
 import Eyes from './Components/Eyes/Eyes'
 import Feature from './Components/Feature/Feature'
+import Cards from './Components/Cards/Cards'
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <About/>
       <Eyes/>
       <Feature/>
+      <Cards/>
     </div>
   )
 }
