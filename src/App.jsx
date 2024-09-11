@@ -7,8 +7,10 @@ import About from './Components/About/About'
 import Eyes from './Components/Eyes/Eyes'
 import Feature from './Components/Feature/Feature'
 import Cards from './Components/Cards/Cards'
+import LocomotiveScroll from 'locomotive-scroll';
 
 function App() {
+  const locomotiveScroll = new LocomotiveScroll()
   return (
     <div className='w-full h-screen text-black'>
       <Navbar/>

@@ -5,7 +5,11 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundSize: {
+        '1/2': '50% 50%', // Add custom background size
+      },
+    },
   },
   plugins: [],
 }
