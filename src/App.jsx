@@ -5,6 +5,7 @@ import Landing from './Components/Landing/Landing'
 import Marqee from './Components/Marqee/Marqee'
 import About from './Components/About/About'
 import Eyes from './Components/Eyes/Eyes'
+import Feature from './Components/Feature/Feature'
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Marqee/>
       <About/>
       <Eyes/>
+      <Feature/>
     </div>
   )
 }
